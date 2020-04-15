@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap Grid System</title>
+    <link rel="stylesheet" type="text/css" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
+    <style type="text/css">
+    .pink{
+        background: pink;
+        border: 1px solid purple;
+    }
+    .orange{
+        background: orange;
+        border: 1px dashed blue;
+        height: 50px;
+    }
+    </style>
+</head>
+<body>
+    <!-- 
+    1) Understand Purpose of Grid System
+    2) Understand the 4 different sizes
+    3) Write Nested Grids 
+    -->
+
+    <div class="container">
+        <!-- <div class="row">
+            <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+            <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+            <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+            <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+            <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+            <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+            <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+            <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+            <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+            <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+            <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+            <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+        </div> -->
+        <div class="row">
+            <div class="col-md-3 col-sm-6 pink">
+                <div class="row">
+                    <div class="col-lg-6 orange">1st half</div>
+                    <div class="col-lg-6 orange">Other half</div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 pink">Tour date</div>
+            <div class="col-md-3 col-sm-6 pink">Tour date</div>
+            <div class="col-md-3 col-sm-6 pink">
+                <div class="row">
+                    <div class="col-lg-2 orange"></div>
+                    <div class="col-lg-2 orange"></div>
+                    <div class="col-lg-2 orange"></div>
+                    <div class="col-lg-2 orange"></div>
+                    <div class="col-lg-2 orange"></div>
+                    <div class="col-lg-2 orange"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- 
+We have 12 units/row
+4 sizes
+large 
+medium 
+small 
+extra small
+We can reassign those 12 units at any of those 
+-->

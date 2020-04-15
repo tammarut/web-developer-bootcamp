@@ -1,0 +1,124 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="gallery.css">
+    <!-- import fontawesome(Bunch of icons) -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+</head>
+
+<body>
+    <!-- Nav bar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- Hamburgur button -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- Brand nav bar -->
+                <a href="(Somepage)" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> IMG</a>
+            </div>
+
+            <!-- collapse hit web for a mobile size -->
+            <div class="collapse navbar-collapse" id="bs-nav-demo">
+                <!-- Nested nav-bar -->
+                <ul class="nav navbar-nav">
+                    <li><a href="(Somepage)">About</a></li>
+                    <li><a href="(Somepage)">Contract</a></li>
+                </ul>
+                
+                <!-- create navbar to right -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="(Somepage)">Sign Up</a></li>
+                    <li><a href="(Somepage)">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Nav bar -->
+
+    <!-- Title -->
+    <div class="container">
+        <div class="jumbotron">
+            <!-- icon with tag <i></i> -->
+            <!-- or <span></span> -->
+            <h1><i class="fas fa-mountain"></i> The Image Gallery</h1>
+            <p>A bunch of beautiful images that I didn't take(except for the first one!)</p>
+        </div>
+
+    <!-- Images here! -->
+        <div class="row flex-wrap">
+            <!-- Image 1 -->
+            <div class="col-lg-4 col-sm-6 ">
+                
+                <div class="thumbnail">
+                    <img src="https://i.pinimg.com/originals/1e/16/c8/1e16c80d7c56260edfa7dd7ae856578f.jpg" alt="">
+                </div>
+            </div>
+            <!-- Image 2 -->
+            <div class="col-lg-4 col-sm-6 ">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1519638399535-1b036603ac77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80" alt="">
+                </div>
+            </div>
+            <!-- Image 3 -->
+            <div class="col-lg-4 col-sm-6 ">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1521022745759-a9867cd1072c?ixlib=rb-1.2.1&auto=format&fit=crop&w=2089&q=80" alt="">
+                </div>
+            </div>
+            <!-- Image 4 -->
+            <div class="col-lg-4 col-sm-6 ">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1480775292373-5175d0634811?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80" alt="">
+                </div>
+            </div>
+            <!-- Image 5 -->
+            <div class="col-lg-4 col-sm-6 ">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1478155536073-c815e5cefe44?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1412&q=80" alt="">
+                </div>
+            </div>
+            <!-- Image 6 -->
+            <div class="col-lg-4 col-sm-6 ">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1478264635837-66efba4b74ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1482&q=80" alt="">
+                </div>
+            </div>
+            <!-- Image 7 -->
+            <div class="col-lg-4 col-sm-6 ">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1521022960418-732d7d0311f7?ixlib=rb-1.2.1&auto=format&fit=crop&w=2089&q=80" alt="">
+                </div>
+            </div>
+            <!-- Image 8 -->
+            <div class="col-lg-4 col-sm-6 ">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1541827501129-68e96153db1e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1648&q=80" alt="">
+                </div>
+            </div>
+            <!-- Image 9 -->
+            <div class="col-lg-4 col-sm-6 ">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1475115996703-5200b5adbc09?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- import script.js to animate dropdown -->
+    <!-- but also need jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+</body>
+
+</html>
