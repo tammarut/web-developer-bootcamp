@@ -1,0 +1,30 @@
+body {
+   background: #e8e8e8;
+   text-align: center;
+}
+
+span {
+   text-transform: uppercase;
+}
+
+img {
+   width: 300px;
+   height: 400px;
+}
+
+button {
+   margin-top: 1em;
+}
+
+.container {
+   width: 60%;
+   margin: 1em auto;
+   border: 1px solid black;
+   line-height: 1.5em;
+
+   padding: 10px;
+}
+
+
+
+
